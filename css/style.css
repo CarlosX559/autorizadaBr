@@ -172,6 +172,15 @@
         left: 0px;
     }
 
+    #bg_home {
+        position: absolute;
+        bottom: -120px;
+        left: -210px;
+        transform: rotate(2deg);
+        max-width: max-content;
+        width: 114%;
+    }
+
     .container_maquinas {
         display: flex;
         justify-content: center;
@@ -229,7 +238,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 1130px;
+        max-width: 900px;
     }
 
     .item {
@@ -246,6 +255,9 @@
     .owl-theme .owl-nav [class*=owl-] {
         background-color: transparent !important;
         transition: all ease-in 100ms;
+    }
+    .owl-theme .owl-nav [class*=owl-] img {
+        width: 80px;
     }
 
     .owl-theme .owl-nav [class*=owl-]:hover {
@@ -830,6 +842,14 @@
     @media(min-width: 1441px) {
         .container_header {
             height: 1284px;
+        }
+        #bg_home {
+            position: absolute;
+            bottom: -80px;
+            left: -210px;
+            transform: rotate(-2deg);
+            max-width: max-content;
+            width: 108%;
         }
     }
 
