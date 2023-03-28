@@ -777,7 +777,11 @@
     }
 
 
-
+    @media(min-width: 1920px) {
+        .container_header {
+            height: 1200px;
+        }
+    }
 
     @media(max-width:1024px) {
         .area_icons {
