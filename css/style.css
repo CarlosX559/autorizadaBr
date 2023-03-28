@@ -3,8 +3,12 @@
     * {
         font-family: 'Raleway';
         box-sizing: border-box;
+      
     }
-
+    html {
+        overflow-x: hidden !important;
+        box-sizing: border-box;
+    }
     :root {
         --font-weight-400: 400;
         --font-weight-500: 500;
@@ -19,8 +23,9 @@
         /*background: linear-gradient(59.27deg, rgba(255, 173, 224, 0.2) 9.21%, rgba(131, 24, 91, 0) 81.71%), #7A1052;*/
         background: linear-gradient(84.6deg, #610D41 39.72%, #C62D8C 154.74%);
         box-shadow: inset 4px 7px 94px rgba(0, 0, 0, 0.25);
+        overflow-x: hidden;
     }
-    
+
     a {
         text-decoration: none;
         max-width: max-content;
@@ -274,7 +279,7 @@
 
     .owl-carousel .owl-item img {
         width: 100%;
-        max-width: 120px;
+        max-width: 140px;
         object-fit: contain;
         transition: all ease 200ms;
     }
@@ -283,44 +288,6 @@
         transform: scale3d(1.12, 1.12, 1.12);
 
     }
-
-    /*
-    .area_texts_info {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 1160px;
-        margin: 60px 0px 40px 0px;
-    }
-
-    .area_info {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-        width: 100%;
-        max-width: 335px;
-    }
-
-    .title_info h2 {
-        font-weight: var(--font-weight-700);
-        font-size: 20px;
-        line-height: 124%;
-        letter-spacing: var(--font-letter);
-        text-transform: capitalize;
-        color: #FFFFFF;
-        margin: 0px;
-    }
-
-    .sub_title_info p {
-        font-weight: var(--font-weight-600);
-        font-size: 16px;
-        line-height: 130%;
-        text-align: center;
-        letter-spacing: var(--font-letter);
-        color: #FFFFFF;
-        margin: 0px;
-    }*/
 
     /*Icons*/
 
@@ -1208,16 +1175,19 @@
         footer {
             padding: 60px 0px 60px 0px;
         }
+
         .area_footer {
             flex-direction: column;
             align-items: center;
             gap: 40px;
-          
+
         }
+
         .footer_col {
             text-align: center;
             align-items: center;
         }
+
         .area_solucoes {
             align-items: center;
         }
@@ -1418,18 +1388,23 @@
         .title_solucoes h2 {
             font-size: 20px;
         }
+
         .info_solucoes p {
             font-size: 14px;
         }
+
         .title_contato h2 {
             font-size: 20px;
         }
+
         .whats p {
             font-size: 14px;
         }
+
         .email p {
             font-size: 14px;
         }
+
         .copy p {
             font-size: 14px;
         }
