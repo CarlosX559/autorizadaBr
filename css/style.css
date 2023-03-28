@@ -86,6 +86,7 @@
         width: 100%;
         height: 960px;
         position: relative;
+        object-fit: contain;
     }
 
     .container_header_int {
@@ -171,11 +172,9 @@
         left: 0px;
     }
 
-
     .container_maquinas {
         display: flex;
         justify-content: center;
-        width: 100%;
     }
 
     .container_maquinas_int {
@@ -192,7 +191,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px 20px;
         max-width: 650px;
         text-align: center;
         gap: 40px;
@@ -201,8 +199,8 @@
 
     .area_title_text {
         display: flex;
+        gap: 20px;
         justify-content: space-between;
-        width: 100%;
     }
 
     .title_maquinas h2 {
@@ -1124,14 +1122,17 @@
         }
 
         .title_maquinas h2 {
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .sub_title_maquinas p {
             font-size: 16px;
         }
 
-
+        .container_maquinas {
+            padding: 0px 20px;
+        }
+        
         .area_icons {
             gap: 20px;
         }
@@ -1172,13 +1173,16 @@
         .title_icons_beneficios_mobile h2 {
             font-size: 12px;
         }
+        .title_icons_beneficios_mobile_2 h2 {
+            font-size: 12px;
+        }
 
         .title_agnus h2 {
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .sub_title_agnus p {
-            font-size: 16px;
+            font-size: 15px;
         }
 
         .icons_beneficios_mobile {
