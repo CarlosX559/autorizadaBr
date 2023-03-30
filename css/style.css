@@ -179,7 +179,7 @@
     .area_banner_forma {
         position: absolute;
         width: 100%;
-        bottom: -32px;
+        bottom: -60px;
         left: 0px;
     }
     
@@ -1225,7 +1225,6 @@
         font-size: 30px;
         line-height: 124%;
         letter-spacing: 0.04em;
-        text-transform: capitalize;
         color: #FFFFFF;
         margin: 0px;
     }
@@ -1248,7 +1247,6 @@
         font-size: 30px;
         line-height: 124%;
         letter-spacing: 0.04em;
-        text-transform: capitalize;
         color: #FFFFFF;
         margin: 0px;
     }
@@ -1258,7 +1256,6 @@
         font-size: 16px;
         line-height: 124%;
         letter-spacing: 0.04em;
-        text-transform: capitalize;
         color: #FFFFFF;
         margin: 0px;
     }
@@ -1274,7 +1271,6 @@
         font-size: 16px;
         line-height: 124%;
         letter-spacing: 0.04em;
-        text-transform: capitalize;
         color: #FFFFFF;
         margin: 0px;
     }
@@ -1290,7 +1286,6 @@
         font-size: 16px;
         line-height: 124%;
         letter-spacing: 0.04em;
-        text-transform: capitalize;
         color: #FFFFFF;
         margin: 0px;
     }
@@ -1320,7 +1315,11 @@
         padding: 0px 20px;
     }
 
-
+    @media(min-width:1920px) {
+        .area_banner_forma {
+            bottom: -90px;
+        }
+    }
     @media(min-width: 1441px) {
         .container_header {
             height: 1300px;
@@ -1334,9 +1333,7 @@
             max-width: max-content;
             width: 108%;
         }
-        .area_banner_forma {
-            bottom: 0px;
-        }
+     
     }
 
     @media(max-width:1024px) {
@@ -1436,7 +1433,6 @@
             font-size: 14px;
             line-height: 124%;
             letter-spacing: var(--font-letter);
-            text-transform: capitalize;
             color: #FFFFFF;
             margin: 0px;
             text-align: right;
@@ -1465,7 +1461,6 @@
             font-size: 14px;
             line-height: 124%;
             letter-spacing: var(--font-letter);
-            text-transform: capitalize;
             color: #FFFFFF;
             margin: 0px;
             text-align: left;
@@ -1948,7 +1943,7 @@
             width: 47%;
         }
         .slide-3 .owl-dots {
-            bottom: 120px;
+            bottom: 140px;
         }
         .area_cards_gestao {
             max-width: 400px;
@@ -1968,5 +1963,8 @@
 
         .sub_title_maquinas p {
             font-size: 14px;
+        }
+        .slide-3 .owl-dots {
+            bottom: 140px;
         }
     }
