@@ -705,13 +705,13 @@
         position: absolute;
         z-index: 99;
         width: 100%;
-        max-width: max-content;
+        max-width: 800px;
     }
 
     .text_negocio h2 {
         font-weight: var(--font-weight-700);
-        font-size: 40px;
-        line-height: 124%;
+        font-size: 36px;
+        line-height: 110%;
         text-align: center;
         letter-spacing: 0.04em;
         color: #FFFFFF;
@@ -1317,7 +1317,7 @@
 
     @media(min-width:1920px) {
         .area_banner_forma {
-            bottom: -90px;
+            bottom: -45px;
         }
     }
     @media(min-width: 1441px) {
