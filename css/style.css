@@ -355,6 +355,44 @@
     }
 
 
+    /*Video*/
+    .container_video {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 20px 0px 60px 0px;
+    }
+    .container_video_int {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 660px;
+    }
+
+    .area_video {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 40px;
+        
+    }
+    
+
+    .title_video h2 {
+        font-weight: var(--font-weight-700);
+        font-size: 26px;
+        line-height: 124%;
+        text-align: center;
+        letter-spacing: var(--font-letter);
+        color: #FFFFFF;
+        margin: 0px 0px 0px 0px;
+    }
+
+
+
     /*Elgin movel*/
 
     .container_agnus_movel {
@@ -1881,7 +1919,17 @@
         .sub_title_agnus p {
             font-size: 15px;
         }
-
+        .area_video {
+            gap: 20px;
+        }
+        .area_video iframe {
+            width: 350px;
+            height: 190px;
+        }
+        .title_video h2 {
+            font-size: 20px;
+            padding: 0px 20px;
+        }
         .icons_beneficios_mobile {
             max-width: 350px;
         }
