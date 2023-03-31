@@ -279,7 +279,65 @@
                 <div class="title_video">
                     <h2>Sistema gestão, iniciando uma venda</h2>
                 </div>
-                <iframe loading="lazy" width="100%" height="400" src="https://www.youtube.com/embed/scUzG2wPUhI" title="Sistema Gestão - (Caixa) - iniciando uma Venda" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="area_player">
+                    <div class="up_container">
+                        <div class="player-wrapper">
+                            <video class="player" width="100%" height="auto" autoplay preload="auto" controls loop
+                                muted playsinline>
+                                <source src="video/gestao.mp4" type="video/mp4">
+                                </source>
+                    
+                            </video>
+
+
+                            <script>
+
+                                var player = document.querySelector('.player');
+                                function playClick() {
+
+                                    player.volume = 1;
+                                    player.muted = false;
+                                    player.currentTime = 0;
+                                    player.controls = false;
+
+                                    document.querySelector(".thumb_1").style.display = "none";
+                                    document.querySelector(".hidden_controls").style.display = "none";
+
+                                }
+
+
+                                function pauseClick() {
+                                    player.pause();
+                                    document.querySelector(".thumb_2").style.display = "flex";
+                                }
+
+                                function returnVideo() {
+                                    player.play();
+                                    document.querySelector(".thumb_2").style.display = "none";
+                                }
+
+                            </script>
+
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+                            <div class="thumb_1" onclick="playClick()">
+                                <lottie-player src="https://lottie.host/64af9d91-4787-43e0-847c-01e052fde180/9f1gfxQotA.json" background="transparent" speed="1" style="width: 160px; height: 160px;" loop autoplay></lottie-player>
+
+                            </div>
+
+                            <div class="thumb_2" onclick="returnVideo()">
+                               
+                                <lottie-player src="https://lottie.host/64af9d91-4787-43e0-847c-01e052fde180/9f1gfxQotA.json" background="transparent" speed="1" style="width: 160px; height: 160px;" loop autoplay></lottie-player>
+
+                            </div>
+
+                            <div class="hidden_controls"></div>
+
+                            <div class="glass" onclick="pauseClick()"></div>
+                        </div>
+                    </div>
+                </div>
           
                 <a href="https://www.youtube.com/@sistemadegestaocompleto360/videos"
                 target="_blank">
@@ -2144,7 +2202,7 @@
 
     </footer>
     <div class="copy">
-        <p>Todos os direitos reservados</p>
+        <p>Copyright ® 2023. Todos os direitos reservados.</p>
     </div>
 
 
