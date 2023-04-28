@@ -88,7 +88,7 @@
     .container_header {
         display: flex;
         justify-content: center;
-        background-image: url(../img/bg_header.png);
+        background-image: url(../img/bg_header.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1457,11 +1457,17 @@
         gap: 20px;
     }
 
-    .footer_col img {
-        max-width: max-content;
+    .logo_footer {
+        max-width: 296px;
         width: 100%;
         object-fit: contain;
     }
+    .logo_agnus {
+        max-width: 151px;
+        width: 100%;
+        object-fit: contain;
+    }
+    
 
     .title_contato h2 {
         font-weight: var(--font-weight-700);
@@ -1564,7 +1570,7 @@
             bottom: -45px;
         }
     }
-    @media(min-width: 1441px) {
+    @media(min-width: 1500px) {
         .container_header {
             height: 1300px;
         }
