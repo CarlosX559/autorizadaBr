@@ -106,6 +106,8 @@
         height: 100%;
         max-width: 1300px;
         width: 100%;
+        position: relative;
+        z-index: 0;
     }
 
     .area_header {
@@ -1189,6 +1191,8 @@
     /*certificado*/
     .container_certificado {
         display: flex;
+        position: relative;
+        z-index: 1;
         justify-content: center;
         width: 100%;
         padding: 60px 0px 0px 0px;
@@ -1782,12 +1786,11 @@
 
     /*Faq*/
 
-
     .container_faq {
         display: flex;
         justify-content: center;
         width: 100%;
-        padding: 60px 0px 60px 0px;
+        padding: 0px 0px 60px 0px;
     }
 
     .container_faq_int {
@@ -2139,7 +2142,9 @@
             font-size: 26px;
         }
 
-
+        .slide-7 .owl-stage-outer {
+            display: initial;
+        }
         /*Agnus movel*/
         .area_title_agnus {
             gap: 20px;
@@ -2165,7 +2170,9 @@
             display: none;
         }
 
-
+        .card_gestao {
+            height: 100%;
+        }
         .area_beneficios_agnus {
             display: flex;
             justify-content: center;
