@@ -61,7 +61,7 @@ function cardCertificado() {
 
     let selected = $(".icons_certificado.selected");
     let area_slide = $('.area_total .slide');
-    
+
     for (let i = 0; i < area_slide.length; i++) {
       if (area_slide[i].attributes[2].value == 'false') {
         area_slide[i].attributes[2].value = 'true';
@@ -103,3 +103,59 @@ function cardCertificado() {
 }
 
 cardCertificado();
+
+
+function planos() {
+
+  let planos = $('.plano_anual');
+
+  planos.on('click', function () {
+
+    planos.removeClass('active');
+    $(this).addClass('active');
+
+
+    let active = $('.plano_anual.active');
+    let area_planos = $('.area_precos_planos');
+
+
+    for (let i = 0; i < area_planos.length; i++) {
+      if (area_planos[i].attributes[0].value == 'area_precos_planos active') {
+        area_planos[i].attributes[0].value = 'area_precos_planos';
+
+      }
+    }
+    //console.log(area_planos[i].attributes[0].value);
+
+    switch (active[0].attributes.id.nodeValue) {
+      case 'plano_1':
+        area_planos[0].attributes[0].value = 'area_precos_planos active';
+        area_planos[3].attributes[0].value = 'area_precos_planos active';
+        area_planos[6].attributes[0].value = 'area_precos_planos active';
+        area_planos[9].attributes[0].value = 'area_precos_planos active';
+        break;
+      case 'plano_2':
+        area_planos[1].attributes[0].value = 'area_precos_planos active';
+        area_planos[4].attributes[0].value = 'area_precos_planos active';
+        area_planos[7].attributes[0].value = 'area_precos_planos active';
+        area_planos[10].attributes[0].value = 'area_precos_planos active';
+
+        break;
+      case 'plano_3':
+        area_planos[2].attributes[0].value = 'area_precos_planos active';
+        area_planos[5].attributes[0].value = 'area_precos_planos active';
+        area_planos[8].attributes[0].value = 'area_precos_planos active';
+        area_planos[11].attributes[0].value = 'area_precos_planos active';
+
+        break;
+
+    }
+
+
+
+  });
+
+
+}
+
+planos();

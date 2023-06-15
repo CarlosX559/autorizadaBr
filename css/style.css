@@ -1461,6 +1461,195 @@
         margin: 0px;
     }
 
+    /*planos*/
+    .container_planos {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 60px 0px 0px 0px;
+    }
+
+    .container_planos_int {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        max-width: 1400px;
+    }
+
+    .area_tempo_planos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #F4A02A;
+        width: 100%;
+        max-width: 300px;
+        height: 40px;
+        border-radius: 25px;
+        padding: 10px 5px;
+    }
+
+    .plano_anual {
+        max-width: max-content;
+        width: 100%;
+        padding: 5px 10px;
+        border-radius: 20px;
+        background-color: #610D41;
+        cursor: pointer;
+        transition: all ease 200ms;
+    }
+
+    .plano_anual.active h2 {
+        color: #F49D22;
+    }
+
+    .plano_anual:hover {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    .plano_anual:hover>h2 {
+        color: #F49D22;
+    }
+
+    .plano_anual h2 {
+        font-weight: var(--font-weight-700);
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+
+    .area_planos {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        width: 100%;
+    }
+
+    .card_planos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        padding: 40px 30px;
+        background: #A72777;
+        box-shadow: -100px 30px 40px -100px rgba(0, 0, 0, 0.25), -10px 7px 35px -8px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+    }
+
+    .card_planos_int {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 240px;
+    }
+
+    .area_text_planos {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .title_planos h2 {
+        font-weight: var(--font-weight-700);
+        font-size: 24px;
+        line-height: 124%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #F4A02A;
+        margin: 0px;
+    }
+
+    .sub_title_planos p {
+        font-weight: var(--font-weight-700);
+        font-size: 16px;
+        line-height: 124%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+
+    .area_precos_planos.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .area_precos_planos {
+        display: none;
+    }
+
+    .preco_del del {
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+
+    .preco_plano h2 {
+        font-weight: var(--font-weight-700);
+        font-size: 34px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+
+    .area_btn_planos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .area_btn_planos a {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .btn_planos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        background: linear-gradient(268.04deg, #F49D22 4.57%, #F1B969 105.01%), #7A1052;
+        border-radius: 100px;
+        padding: 6px 15px;
+        transition: all ease 200ms;
+    }
+
+    .btn_planos:hover {
+        transform: scale3d(1.08, 1.08, 1.08);
+    }
+
+    .btn_planos img {
+        max-width: 25px;
+        width: 100%;
+    }
+
+    .btn_planos h2 {
+        font-weight: var(--font-weight-700);
+        font-size: 18px;
+        line-height: 124%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+
     /*parceiro*/
     .container_parceiro {
         display: flex;
