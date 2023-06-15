@@ -1046,6 +1046,7 @@
         align-items: center;
         justify-content: space-between;
         background: #F49D22;
+        height: 1085px;
         /*box-shadow: -100px 30px 40px -103px rgba(0, 0, 0, 0.25), -28px 7px 35px -8px rgba(0, 0, 0, 0.25);*/
         backdrop-filter: blur(2px);
         border-radius: 56px;
@@ -1198,7 +1199,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 1440px;
+        max-width: 1160px;
     }
 
     .area_certificado {
@@ -1337,6 +1338,8 @@
     }
 
     .slide-7 .owl-stage-outer {
+        display: flex;
+        justify-content: center;
         padding: 40px 0px;
     }
 
@@ -1355,9 +1358,9 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 400px;
-        height: 100%;
-        padding: 50px 40px;
+        max-width: 320px;
+        height: 380px;
+        padding: 0px 25px;
         background: #A72777;
         box-shadow: -100px 30px 40px -100px rgba(0, 0, 0, 0.25), -10px 7px 35px -8px rgba(0, 0, 0, 0.25);
         backdrop-filter: blur(2px);
@@ -1391,7 +1394,6 @@
         line-height: 124%;
         text-align: center;
         letter-spacing: 0.04em;
-        text-transform: capitalize;
         color: #FFFFFF;
         margin: 0px;
     }
