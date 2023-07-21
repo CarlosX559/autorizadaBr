@@ -2357,6 +2357,7 @@
         .area_cards_gestao {
             max-width: 1000px;
         }
+
         .container_planos {
             padding: 40px 0px 0px 0px;
         }
@@ -2480,6 +2481,8 @@
         }
 
         .area_header img {
+            width: 100%;
+            height: auto;
             max-width: 200px;
         }
 
@@ -2520,11 +2523,23 @@
 
         }
 
+        .slide-1 .item {
+            height: 315px;
+        }
+
         .container_maquinas {
             padding: 0px 20px;
         }
 
+        .container_icons {
+            margin: 20px 0px 20px 0px;
+        }
+
         .area_icons {
+            gap: 20px;
+        }
+
+        .container_icons_int {
             gap: 20px;
         }
 
@@ -2610,7 +2625,7 @@
         }
 
         .area_texts_gestao {
-            gap: 30px;
+            gap: 20px;
         }
 
         .info_gestao h2 {
@@ -2640,11 +2655,11 @@
         }
 
         .title_gestao h2 {
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .sub_title_gestao p {
-            font-size: 18px;
+            font-size: 16px;
         }
 
         .btn_gestao h2 {
