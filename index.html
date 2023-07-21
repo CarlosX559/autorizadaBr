@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
     <meta name="description"
         content="AutorizadaBr, uma nova forma de vender no seu estabelecimento com o Inspire Pay instalado na sua máquina de cartão você ganha um PDV móvel completo para usar em toda a loja">
     <meta name="keywords" content="autorizadaBr, agnus, agnus movel, agilidade, economia, simplicidade">
@@ -617,6 +617,41 @@
 
     <div class="container_maquinas">
         <div class="container_maquinas_int">
+        
+            <div class="area_texts_maquinas">
+                <div class="area_title_text">
+                    <div class="title_maquinas" data-animation="left">
+                        <h2>
+                            AGILIDADE
+                        </h2>
+                    </div>
+                    <div class="title_maquinas" data-animation="down">
+                        <h2>
+                            ECONOMIA
+                        </h2>
+                    </div>
+                    <div class="title_maquinas" data-animation="right">
+                        <h2>
+                            SIMPLICIDADE
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="sub_title_maquinas" data-animation="down">
+                    <p>
+                        A Inspire Pay é um sistema de PDV que, ao ser instalado na maquineta do cartão, funciona como
+                        um
+                        caixa completo dentro da máquina.<br><br>
+
+                        A Inspire Pay funciona totalmente integrada ao seu sistema de ERP, eliminando a necessidade de
+                        utilizar computador, monitor e impressora para finalizar a venda.<br><br>
+
+                        Você vai até o cliente com o que precisa para fechar a venda na hora, tudo na sua mão, dentro da
+                        maquineta!
+                    </p>
+                </div>
+            </div>
+
             <div class="area_maquinas">
                 <div class="slide-1 area_imgs owl-carousel owl-theme">
 
@@ -671,40 +706,6 @@
 
                 </div>
 
-            </div>
-
-            <div class="area_texts_maquinas">
-                <div class="area_title_text">
-                    <div class="title_maquinas" data-animation="left">
-                        <h2>
-                            AGILIDADE
-                        </h2>
-                    </div>
-                    <div class="title_maquinas" data-animation="down">
-                        <h2>
-                            ECONOMIA
-                        </h2>
-                    </div>
-                    <div class="title_maquinas" data-animation="right">
-                        <h2>
-                            SIMPLICIDADE
-                        </h2>
-                    </div>
-                </div>
-
-                <div class="sub_title_maquinas" data-animation="down">
-                    <p>
-                        A Inspire Pay é um sistema de PDV que, ao ser instalado na maquineta do cartão, funciona como
-                        um
-                        caixa completo dentro da máquina.<br><br>
-
-                        A Inspire Pay funciona totalmente integrada ao seu sistema de ERP, eliminando a necessidade de
-                        utilizar computador, monitor e impressora para finalizar a venda.<br><br>
-
-                        Você vai até o cliente com o que precisa para fechar a venda na hora, tudo na sua mão, dentro da
-                        maquineta!
-                    </p>
-                </div>
             </div>
 
 
@@ -829,20 +830,10 @@
 
 
                             <div class="thumb_1" onclick="playClick()">
-                                <lottie-player
-                                    src="https://lottie.host/44fc79f1-8e66-4818-88cc-6df2e65c56fe/dxqga0Wtho.json"
-                                    background="transparent" speed="1" style="width: 200px; height: 200px;" loop
-                                    autoplay></lottie-player>
-
-
+                              
                             </div>
 
                             <div class="thumb_2" onclick="returnVideo()">
-
-                                <lottie-player
-                                    src="https://lottie.host/44fc79f1-8e66-4818-88cc-6df2e65c56fe/dxqga0Wtho.json"
-                                    background="transparent" speed="1" style="width: 200px; height: 200px;" loop
-                                    autoplay></lottie-player>
 
                             </div>
 
@@ -1540,13 +1531,13 @@
                     <div class="slide-3 owl-carousel owl-theme">
 
                         <div class="item mockup">
-                            <img src="img/mockup_1.webp" alt="">
+                            <img src="img/mockup_1.webp" alt="" loading="lazy">
                         </div>
                         <div class="item mockup">
-                            <img src="img/mockup_2.webp" alt="">
+                            <img src="img/mockup_2.webp" alt="" loading="lazy">
                         </div>
                         <div class="item mockup">
-                            <img src="img/mockup_3.webp" alt="">
+                            <img src="img/mockup_3.webp" alt="" loading="lazy">
                         </div>
 
                     </div>
@@ -3087,12 +3078,11 @@
 
 
 
-    <script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
     <script src="js/jquery-3.6.1.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script defer src="js/owl.carousel.min.js"></script>
     <script defer src="js/script.js"></script>
     <script defer type="text/javascript">
-
 
         const next = '<img src="img/arrow_next.png" alt="">';
         const prev = '<img src="img/arrow_prev.png" alt="">';

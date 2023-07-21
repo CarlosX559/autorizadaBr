@@ -217,7 +217,6 @@
         max-width: 650px;
         text-align: center;
         gap: 40px;
-        margin-top: 40px;
     }
 
     .area_title_text {
@@ -252,6 +251,7 @@
         align-items: center;
         width: 100%;
         max-width: 900px;
+        margin-top: 20px;
     }
 
     .slide-1 .item {
@@ -2145,6 +2145,7 @@
         .slide-7 .owl-stage-outer {
             display: initial;
         }
+
         /*Agnus movel*/
         .area_title_agnus {
             gap: 20px;
@@ -2173,6 +2174,7 @@
         .card_gestao {
             height: 100%;
         }
+
         .area_beneficios_agnus {
             display: flex;
             justify-content: center;
@@ -2354,6 +2356,9 @@
 
         .area_cards_gestao {
             max-width: 1000px;
+        }
+        .container_planos {
+            padding: 40px 0px 0px 0px;
         }
 
         footer {
@@ -2732,6 +2737,14 @@
             gap: 20px;
         }
 
+        .area_parceiro svg {
+            height: 350px;
+        }
+
+        .slide-4 .item {
+            padding: 0px;
+        }
+
         .title_parceiro h2 {
             font-size: 22px;
         }
@@ -2821,6 +2834,10 @@
         .owl-theme .owl-nav [class*=owl-] img {
             width: 60px;
         }
+
+        .faq_quests {
+            padding: 20px 20px 20px 20px;
+        }
     }
 
     @media(max-width:425px) {
@@ -2869,6 +2886,16 @@
         }
     }
 
+    @media(max-width: 400px) {
+        .aswer.open {
+            margin: -85px 0px 40px 0px;
+        }
+
+        .aswer.open {
+            padding: 80px 30px 40px 30px;
+        }
+    }
+
     @media(max-width: 375px) {
         .quest h2 {
             font-size: 16px;
@@ -2890,6 +2917,18 @@
         .area_banner_forma {
             bottom: -220px;
             height: 48px;
+        }
+
+        .card_gestao {
+            max-width: 330px;
+        }
+
+        .area_cards_gestao {
+            max-width: 370px;
+        }
+
+        .btn_gestao h2 {
+            font-size: 14px;
         }
 
         .title_maquinas h2 {
