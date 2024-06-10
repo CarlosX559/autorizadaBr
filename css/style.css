@@ -422,6 +422,14 @@
 
     }
 
+    .thumb_1 img {
+        max-width: 120px;
+    }
+
+    .thumb_2 img {
+        max-width: 120px;
+    }
+
     .thumb_2 {
         display: none;
         align-items: center;
@@ -566,7 +574,7 @@
         display: flex;
         justify-content: center;
         gap: 30px;
-
+        width: 100%;
     }
 
     .area_beneficios {
@@ -594,6 +602,7 @@
         display: flex;
         align-items: flex-start;
         gap: 40px;
+
     }
 
     .title_beneficios {
@@ -630,7 +639,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        max-width: 420px;
+        max-width: 380px;
     }
 
     .area_icons_beneficios {
@@ -1706,10 +1715,10 @@
     }
 
     .slide-3 .item img {
-        max-width: 52%;
+        max-width: 74%;
         width: 100%;
         position: absolute;
-
+        height: 335px;
     }
 
     .slide-3 .owl-dots {
@@ -1717,8 +1726,8 @@
         align-items: center;
         margin-top: 10px;
         position: absolute;
-        bottom: -130px;
-        left: 35%;
+        bottom: -40px;
+        left: 32%;
         gap: 10px;
     }
 
@@ -2636,10 +2645,6 @@
             gap: 20px;
         }
 
-        .notebook {
-            padding-right: 40px;
-        }
-
         .slide-3 .owl-dots {
             bottom: 90px;
         }
@@ -2867,11 +2872,14 @@
         }
 
         .slide-3 .item img {
-            width: 47%;
+            max-width: 76%;
+            width: 100%;
+            position: absolute;
+            height: 210px;
         }
 
         .slide-3 .owl-dots {
-            bottom: 140px;
+            bottom: 100px;
         }
 
         .area_cards_gestao {
