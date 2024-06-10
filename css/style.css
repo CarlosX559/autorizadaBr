@@ -88,7 +88,7 @@
     .container_header {
         display: flex;
         justify-content: center;
-        background-image: url(../img/bg_header.webp);
+        background-image: url(../img/bg_header.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
